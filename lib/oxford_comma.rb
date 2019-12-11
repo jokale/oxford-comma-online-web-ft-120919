@@ -3,12 +3,6 @@ def oxford_comma(array)
     array 
   elsif array.length == 2 
   array.join (", and")
-else array.length > 2 
-  array.join (",") << "and"
-end 
-end 
-array 
-
 end 
 # def oxford_comma(array)
 # array.join(",")
